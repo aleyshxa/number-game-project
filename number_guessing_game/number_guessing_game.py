@@ -1,10 +1,10 @@
 import random
 
-number = random.randint(1,300)
+number = random.randint(1,100)
 guess = None
 attempts = 0 
 
-print("I am thinking about a number between 1 and 300...")
+print("I am thinking about a number between 1 and 100...")
 
 while guess !=number: # ! means not equal too
     guess = int(input("Take a guess: "))
